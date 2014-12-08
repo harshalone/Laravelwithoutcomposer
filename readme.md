@@ -1,25 +1,13 @@
 ## Laravel PHP Framework
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+Laravel 4.2 - Last Update: 08 December 2014
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
+Why i created this repo?
 
-Laravel aims to make the development process a pleasing one for the developer without sacrificing application functionality. Happy developers make the best code. To this end, we've attempted to combine the very best of what we have seen in other web frameworks, including frameworks implemented in other languages, such as Ruby on Rails, ASP.NET MVC, and Sinatra.
+Composer is great dependency manager. It's revolutionized the way we are using PHP. But it's slow compare with other dependency manager (like npm or gem). Especially for people who living in certain area that doesn't have fast internet connection.
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+I love Laravel, and I have seen other PHP developer who want to try Laravel are getting frustated when they want to install it on their computer because Composer is too slow to install any PHP library that needed by Laravel.
 
-## Official Documentation
+I created Larapack to provide you an simple way to install Laravel on your computer. It's also include composer.phar. So if you needed other library for your application, you can install directly with Composer.
 
-Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
-
-### Contributing To Laravel
-
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
-
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+Larapack will be updated weekly. But it is intended for PHP developer who still relative new with Laravel and Composer and if you already know about it, I strongly suggest you to install/update it with Composer. I also have modified composer.json inside Larapack to give a boost performance when you try to update your Laravel dependencies.
