@@ -1,4 +1,5 @@
 ## Laravel PHP Framework
+# Just download the zip and upload to your htdoc and wolla it will work for you
 
 Laravel 4.2 - Last Update: 08 December 2014
 
